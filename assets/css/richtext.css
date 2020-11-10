@@ -1,0 +1,41 @@
+.richtext * {
+	/*font-family: 'Lucida Grande', 'Microsoft Yahei';*/
+	color: #333;
+}
+
+.richtext {
+	line-height: 1.8em;
+	font-size: 14px;
+}
+
+.richtext img {
+	max-width: 100%;
+}
+.richtext table {
+	border: solid 1px #888;
+	margin:0px auto;
+}
+.richtext table tr td {
+	padding: 3px 10px;
+	border: 1px solid #888;
+	cellspacing:0;
+	cellpadding:0;
+}
+.richtext table tr td p{
+	margin-bottom: 0;
+}
+.richtext table tr:nth-child(2n){
+	background: #ddd;
+}
+.richtext strong {
+	font-weight: bold;
+}
+.richtext em {
+	font-style: italic;
+}
+.richtext p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+}
+ 
